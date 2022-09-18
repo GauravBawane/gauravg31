@@ -1,0 +1,5 @@
+<apex:page controller="DemoController" >
+    Congratulation <h1>
+    {!name}
+    </h1> you called first successfully
+</apex:page>

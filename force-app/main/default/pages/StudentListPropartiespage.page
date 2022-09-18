@@ -1,0 +1,12 @@
+<apex:page controller="StudentListController1" >
+    <apex:form >
+        <apex:outputPanel id="StudentDetails">
+            {!student}<br/>
+            {!StudentList}<br/>
+            <apex:repeat value="{!StudentList}" var="stl">
+                {!stl}<br/>
+            </apex:repeat>
+            </apex:outputPanel>
+        <apex:commandButton value="fetch student" action="{!fetchstudent}" />
+    </apex:form>
+</apex:page>

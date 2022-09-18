@@ -1,0 +1,5 @@
+<apex:page controller="MyPage_Controller" >
+    <apex:form >
+        <apex:commandButton action="{!savemothod}" value="click me"/>
+    </apex:form>
+</apex:page>

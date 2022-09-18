@@ -1,0 +1,8 @@
+<apex:page controller="PassParameterController">
+    <apex:form >
+        You are viewing the {!account.name} account.chenge Account Name: <p/>
+        <apex:inputField value="{!Account.name}" /> <p/>
+        <apex:commandButton action="{!Save}" value="Save Account"/>
+        <apex:commandButton action="{!GoToNewPage}" value="Next page"/>
+    </apex:form>
+</apex:page>

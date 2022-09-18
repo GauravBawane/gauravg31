@@ -1,0 +1,7 @@
+<apex:page controller="ViewStateController" >
+    <apex:form >
+        {!a}
+        {!opp.name}
+        <apex:commandButton value="Click me" action="{!chengeData}"/>
+    </apex:form>
+</apex:page>

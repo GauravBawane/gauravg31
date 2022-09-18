@@ -1,0 +1,10 @@
+<apex:page controller="opportunityList2con" >
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockTable value="{!Opportunities}" var="opps">
+                <apex:column value="{!opps.Name}"/>
+                <apex:column value="{!opps.CloseDate}"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
